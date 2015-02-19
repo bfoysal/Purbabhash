@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <!--
+         <TextView
+    	android:id="@+id/header""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    -->
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        class="com.google.android.gms.maps.MapFragment" />
+
+    <Button
+        android:id="@+id/dcoffice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/map"
+        android:layout_alignRight="@+id/map"
+        android:layout_below="@+id/map"
+        android:text="DC Office" />
+
+    <Button
+        android:id="@+id/costalguard"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Costal Guard" />
+
+    <Button
+        android:id="@+id/hospital"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/costalguard"
+        android:layout_alignBottom="@+id/costalguard"
+        android:layout_alignRight="@+id/dcoffice"
+        android:text="Hospital" />
+
+    <Button
+        android:id="@+id/firebrigade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/costalguard"
+        android:layout_alignLeft="@+id/costalguard"
+        android:layout_alignRight="@+id/hospital"
+        android:text="Firebrigade" />
+
+    <Button
+        android:id="@+id/police"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dcoffice"
+        android:layout_alignRight="@+id/dcoffice"
+        android:layout_below="@+id/dcoffice"
+        android:text="Police" />
+
+</RelativeLayout>

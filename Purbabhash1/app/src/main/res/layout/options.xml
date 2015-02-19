@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wall"
+   
+    >
+
+    <Button
+        android:id="@+id/news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:gravity="center"
+        android:text="সংবাদ"
+        android:background="#8058ACFA"
+        android:textColor="#3B0B2E" 
+        android:textSize="25dp"
+        android:width="200dp"
+        android:layout_below="@+id/menu"
+        />
+
+   
+
+    <Button
+        android:id="@+id/cycloneCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/news"
+        android:layout_below="@+id/news"
+        android:layout_marginTop="48dp"
+        android:background="#8058ACFA"
+        android:gravity="center"
+        android:text="সাইক্লোন সেন্টার"
+        android:textColor="#3B0B2E"
+        android:textSize="25dp"
+        android:width="200dp" />
+
+    <Button
+        android:id="@+id/bipodsongket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cycloneCenter"
+        android:layout_below="@+id/cycloneCenter"
+        android:layout_marginTop="49dp"
+       
+        android:gravity="center"
+        android:text="বিপদ সংকেত সমূহ"
+        
+        android:background="#8058ACFA"
+        android:textColor="#3B0B2E" 
+        
+        android:textSize="25dp"
+        android:width="200dp"
+         />
+
+    <!-- <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/abohaoa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="Button" /> -->
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:gravity="center"
+        android:text="Menu"
+        android:textColor="#3B170B"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/durjogekoronio"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/abohaoa"
+        android:layout_below="@+id/abohaoa"
+        android:layout_marginTop="35dp"
+        android:background="#8058ACFA"
+        android:gravity="center"
+        android:text="দুর্যোগে করনীয়"
+        android:textColor="#3B0B2E"
+        android:textSize="25dp"
+        android:width="200dp" />
+
+    <Button
+        android:id="@+id/abohaoa"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bipodsongket"
+        android:layout_below="@+id/bipodsongket"
+        android:layout_marginTop="44dp"
+        android:background="#8058ACFA"
+        android:gravity="center"
+        android:text="আবহাওয়া"
+        android:textColor="#3B0B2E"
+        android:textSize="25dp"
+        android:width="200dp" />
+
+</RelativeLayout>

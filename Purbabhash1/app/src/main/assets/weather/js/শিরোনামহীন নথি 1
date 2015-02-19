@@ -1,0 +1,214 @@
+<div id="content">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <h2>Strengths of our business</h2>
+
+
+
+
+          <div class="row">
+            <!-- Service Container --> 
+            <div class="span4">
+              <!-- Service Icon --> 
+              <div class="ic-1"><i class="icon-lightbulb"></i></div>
+              <!-- Service Title --> 
+              <div class="title-1"><h4>Powerful clean design</h4></div>
+              <!-- Service Content --> 
+              <div class="text-1"> 
+                On sait depuis longake apple pie. Gingerbread cotton candy icing ice cream applicake wafetemps nnaire de plus de 200 mots pluskan rlatin
+              </div>
+            </div>
+            <!-- Service Container End --> 
+            <div class="span4">
+              <div class="ic-1"><i class="icon-resize-small"></i></div>
+              <div class="title-1"><h4>Fully responsive</h4></div>
+              <div class="text-1">         
+                Iil utilise un dictionnaire de plus de 200 mots kan rlarem as Ipsumtiotins, en combiake apple pie. Gingerbread icing ice cream applicake wafenaison.
+              </div>
+            </div>
+            <div class="span4">
+              <div class="ic-1"><i class="icon-eye-open"></i></div>
+              <div class="title-1"><h4>Retina Ready</h4></div>
+              <div class="text-1">
+                Contrairement à une opinion répandue, Lorem as Ipsumtionnaire de plus n'est pas simplake apple pie. Gingerbread cotton  ice cream applicake wafeement.
+              </div>
+            </div>    
+          </div>   
+        </div>   
+       
+        <div class="span12">
+          <h2>We have the latest proven technology</h2>
+        </div> 
+        <div class="span8">
+        
+          <div class="btn h-button"><h3>Recommend</h3></div>
+        
+        
+          <img src="img/devices.png" alt="">
+        </div>
+        <div class="span4">
+          <div class="ic-1"></div>
+          <div class="title-1"><h4>Fully responsive</h4></div>
+          <!-- List -->
+          <div class="text-1"> 
+            <ul class="list-b">
+              <!-- List Items -->
+              <li><i class="icon-ok"></i> Le Aorem Ipsum ainsi obtenuit.</li>
+              <li><i class="icon-ok"></i> Contrairement à Lorem n'eslis.</li>
+              <li><i class="icon-ok"></i> On sait depuis travailler coion.</li>
+              <li><i class="icon-ok"></i> Al contrario duaon enfringilla.</li>
+              <li><i class="icon-ok"></i> Sopravvissuto non solulis.</li>
+            </ul>     
+          </div>
+          <!-- List End -->
+        </div>
+               
+      </div>
+
+      <div class="space40"></div>  
+              
+      <!-- Our Clients -->
+      <div class="row">
+        <div class="span12">
+          <h3>Our Clients</h3>
+        </div>
+      </div> 
+    
+      <div id="our-clients" class="slider2 flexslider">
+        <ul class="slides">
+          <li>
+            <div class="row">
+              <div class="span3">
+                <a href="#" rel="external">
+                    <img src="img/our-clients/1.png" alt="">
+                </a>
+              </div>
+              <div class="span3">
+                <a href="#" rel="external">
+                    <img src="img/our-clients/2.png" alt="">
+                </a>
+              </div>
+              <div class="span3">
+                <a href="#" rel="external">
+                    <img src="img/our-clients/3.png" alt="">
+                </a>
+              </div>
+              <div class="span3">
+                <a href="#" rel="external">
+                    <img src="img/our-clients/4.png" alt="">
+                </a>
+              </div>
+            </div>  
+          </li>
+          <li>
+            <div class="row">
+              <div class="span3">
+                <a href="#" rel="external">
+                    <img src="img/our-clients/4.png" alt="">
+                </a>
+              </div>
+              <div class="span3">
+                <a href="#" rel="external">
+                    <img src="img/our-clients/3.png" alt="">
+                </a>
+              </div>
+              <div class="span3">
+                <a href="#" rel="external">
+                    <img src="img/our-clients/1.png" alt="">
+                </a>
+              </div>
+              <div class="span3">
+                <a href="#" rel="external">
+                    <img src="img/our-clients/2.png" alt="">
+                </a>
+              </div>
+            </div>  
+          </li>
+        </ul>
+      </div> 
+      <!-- Our Clients End -->
+      
+      <div class="space50"></div> 
+       
+    </div>
+  </div>
+
+
+
+<div class="container">
+      <div class="row">
+        <div class="span12 pos-r">
+          <h2>Get to know us completely</h2>
+          <div class="texture-footer">
+            <img src="img/background-footer.png" alt="">
+          </div>
+        </div>
+      </div>
+        
+      <div class="row">
+        <div class="span5">
+        <p>
+        OT Porta montes montes vel nunc cras porttitor mid elementum dictumst dignissim dapibus urna ac, enim?
+        </p>
+        <h3>Contact Form</h3>
+        <div>  
+          <form class="form-main" name="ajax-form" id="ajax-form" action="http://www.entiri.com/minett/php/mail-it.php" method="post">
+            <div id="ajaxsuccess">E-mail was successfully sent.</div> 
+            <div class="error" id="err-name">Please enter name</div>
+            <input name="name" id="name" type="text" value="Name" onfocus="if(this.value == 'Name') this.value='';" onblur="if(this.value == '') this.value='Name';">
+            
+            <div class="error" id="err-email">Please enter e-mail</div>
+		        <div class="error" id="err-emailvld">E-mail is not a valid format</div>
+            <input  name="email" id="email" type="text" value="E-mail" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';">
+
+            <div class="error" id="err-message">Please enter message</div>
+            <textarea  name="message" id="message" onfocus="if(this.value == 'Message') this.value='';" onblur="if(this.value == '') this.value='Message';">Message</textarea><br>
+            <div>
+            	<div class="error" id="err-form">There was a problem validating the form please check!</div>
+            	<div class="error" id="err-timedout">The connection to the server timed out!</div>
+            	<div class="error" id="err-state"></div>
+            </div>
+            <button id="send" class="btn f-right">Send Message <i class="icon-ok"></i></button>
+          </form>
+        </div>
+        
+        <div class="row space40"></div>  
+                
+          <a href="#" class="social-network sn2 behance"></a>
+          <a href="#" class="social-network sn2 facebook"></a>
+          <a href="#" class="social-network sn2 pinterest"></a>
+          <a href="#" class="social-network sn2 flickr"></a>
+          <a href="#" class="social-network sn2 dribbble"></a>
+          <a href="#" class="social-network sn2 lastfm"></a>
+          <a href="#" class="social-network sn2 forrst"></a>
+          <a href="#" class="social-network sn2 xing"></a>      
+      
+        </div>
+        <div class="span3 offset3">
+             
+          <div class="space80"></div>
+          <iframe id="map" src="https://maps.google.sk/maps/ms?msa=0&amp;msid=210946297010027755543.0004c74af772bb9276d33&amp;ie=UTF8&amp;ll=48.576981,19.13117&amp;spn=0,0&amp;t=m&amp;output=embed"></iframe>
+          <div class="space70"></div> 
+
+          <h3>ঠিকানা</h3>
+       			   বাইনারি ওয়ার্কশপ<br>
+		          ব্র্যাক বিশ্ববিদ্যালয়<br>
+                        ৬৬, মহাখালী, ঢাকা<br>
+          <br>
+          <i class="icon-phone"></i>+০১৯২১৩৩৪৫০০<br>
+          <i class="icon-envelope"></i><a href="mailto:iushaheed@gmail.com">iushaheed@gmail.com</a><br>
+          
+
+        </div>
+      </div>
+      
+      <div class="row space50"></div>
+      <div class="row">
+        <div class="span6">
+          <div class="logo-footer">
+            <a href="index-2.html"><img src="img/logo-footer.png" alt=""></a>
+          </div>                       
+        </div>
+
+
