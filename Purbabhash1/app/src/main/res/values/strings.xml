@@ -15,39 +15,62 @@
    <string name="weather">Get Weather details</string>
    
    
-   <string name="tb1"> ঘরগুলোর অবস্থা পরীক্ষা করে মজবুত করার জন্য ব্যবস্থা গ্রহণ করুন|</string>
-    <string name="tb2">দুর্যোগকালীন স্বেচ্ছাসেবকদের সঙ্গে যোগাযোগ করুন এবং তাদের পরামর্শ অনুযায়ী প্রস্তুতি নিন।</string>
-    <string name="tb3">বিপদ সংকেত পাওয়া মাত্র  পরিবার নিয়ে আশ্রয় কেন্দ্রে যাবার প্রস্তুতি।</string>
-    <string name="tb4">বাড়ি ছেড়ে যাওয়ার সময় আগুন নিভিয়ে যাবেন।</string>
-    <string name="tb5">শুকনো খাবার,জ্বালানি,প্রয়োজনীয় ওষুধ,লবন,চিনি,ফিটকিরি ইত্যাদি পানি নিরোধক পাত্রে বা পলিব্যাগ এ ভরে মাতিতে পুতে রাখুন।</string>
-    <string name="tb6">গবাদি পশুপাখি উচু স্থানে সরিয়ে নিন।</string>
-    <string name="tb7">রেডিওতে কিছু সময় পরপর ঘূর্ণিঝড়ের খবর শুনতে থাকুন।</string>
-    <string name="tb8">মুল্যবান কাগজপত্র পলিথিনে মুরিয়ে নিজের সংগে বা কথাও লুকিয়ে রাখুন।</string>
-    <string name="tb9">নলকূপ এর উপরের অংশ খুলে সংরক্ষন করুন।</string>
-	<string name="ctn">করনীয়গুলো সম্পূর্ণ করুন</string>
-	<string name="tobefor">ToDo before cyclone</string>
+   <!--<string name="tb1"> ঘরগুলোর অবস্থা পরীক্ষা করে মজবুত করার জন্য ব্যবস্থা গ্রহণ করুন|</string>-->
+    <!--<string name="tb2">দুর্যোগকালীন স্বেচ্ছাসেবকদের সঙ্গে যোগাযোগ করুন এবং তাদের পরামর্শ অনুযায়ী প্রস্তুতি নিন।</string>-->
+    <!--<string name="tb3">বিপদ সংকেত পাওয়া মাত্র  পরিবার নিয়ে আশ্রয় কেন্দ্রে যাবার প্রস্তুতি।</string>-->
+    <!--<string name="tb4">বাড়ি ছেড়ে যাওয়ার সময় আগুন নিভিয়ে যাবেন।</string>-->
+    <!--<string name="tb5">শুকনো খাবার,জ্বালানি,প্রয়োজনীয় ওষুধ,লবন,চিনি,ফিটকিরি ইত্যাদি পানি নিরোধক পাত্রে বা পলিব্যাগ এ ভরে মাতিতে পুতে রাখুন।</string>-->
+    <!--<string name="tb6">গবাদি পশুপাখি উচু স্থানে সরিয়ে নিন।</string>-->
+    <!--<string name="tb7">রেডিওতে কিছু সময় পরপর ঘূর্ণিঝড়ের খবর শুনতে থাকুন।</string>-->
+    <!--<string name="tb8">মুল্যবান কাগজপত্র পলিথিনে মুরিয়ে নিজের সংগে বা কথাও লুকিয়ে রাখুন।</string>-->
+    <!--<string name="tb9">নলকূপ এর উপরের অংশ খুলে সংরক্ষন করুন।</string>-->
+	<!--<string name="ctn">করনীয়গুলো সম্পূর্ণ করুন</string>-->
+    <string name="tb1"> Check your house strength. Repair if needed</string>
+    <string name="tb2">Contact with the volunteer during calamity and prepare upon consulting them.</string>
+    <string name="tb3">Take shelter with your family hearing announcement from the authority.</string>
+    <string name="tb4">Before leaving put off any fire in the house.</string>
+    <string name="tb5">Store Dry foods, Fuel, Medicine, Salt, Sugar, Water purifier underground in water tight poly bags or container. </string>
+    <string name="tb6">Move your domestic or pet animals to a safe high ground during the time.</string>
+    <string name="tb7">Be informed about any announcement. Keep a radio close.</string>
+    <string name="tb8">Carry or hide important documents in water tight polybags.</string>
+    <string name="tb9">Seal the lead of water well or detach the upper portion of the deep tube well</string>
+    <string name="ctn">Complete all the to do’s.</string>
+
+    <string name="tobefor">ToDo before cyclone</string>
    
      <string-array name="things_eleven">
-        <item>* ১ নম্বর দূরবর্তী সতর্ক সংকেত :- এর অর্থ বঙ্গোপসাগরের কোন একটা অঞ্চলে ঝড়ো হাওয়া বইছে এবং সেখানে ঝড় সৃষ্টি হতে পারে-(একটি লাল পতাকা)৷
-</item>
-        <item>* ২ নম্বর দূরবর্তী হুঁশিয়ারি সংকেত :- সমুদ্রে ঘূর্ণিঝড় সৃষ্টি হয়েছে৷
-</item>
-        <item>* ৩ নম্বর স্থানীয় সতর্ক সংকেত :- এর অর্থ বন্দর দমকা হাওয়ার সম্মুখীন-(দুইটি লাল পতাকা)৷
-</item>
-        <item>* ৪ নম্বর হুঁশিয়ারি সংকেত :- এর অর্থ বন্দর ঝড়ের সম্মুখীন হচ্ছে, তবে বিপদের আশঙ্কা এমন নয় যে চরম নিরাপত্তা ব্যবস্থা গ্রহণ করতে হবে৷
-</item>
-        <item>* ৫ নম্বর বিপদ সংকেত :- এর অর্থ হচ্ছে অল্প বা মাঝারী ধরনের ঘূর্ণিঝড়ের কারণে বন্দরের আবহাওয়া দুর্যোগপূর্ণ থাকবে এবং ঝড়টি চট্টগ্রাম বন্দরের দক্ষিণ দিক দিয়ে উপকূল অতিক্রম করতে পারে-(মংলা বন্দরের বেলায় পূর্ব দিক দিয়ে)৷
-</item>
-        <item>* ৬ নম্বর বিপদ সংকেত :- এর অর্থ হচ্ছে অল্প বা মাঝারী ধরনের ঝড় হবে এবং আবহাওয়া দুযোগপূর্ণ থাকবে৷ ঝড়টি চট্টগ্রাম বন্দরের উত্তর দিক দিয়ে উপকূল অতিক্রম করতে পারে-(মংলা বন্দরের বেলায় পশ্চিম দিক দিয়ে)৷
-</item>
-        <item>* ৭নং বিপদ সংকেত :- এর অর্থ অল্প অথবা মাঝারী ধরনের ঘূর্ণিঝড় হবে এবং এজন্য আবহাওয়া দুর্যোগপূর্ণ থাকবে৷ ঘূর্ণিঝড়টি সমুদ্রবন্দরের খুব কাছ দিয়ে অথবা উপর দিয়ে উপকূল অতিক্রম করতে পারে-(তিনটি লাল পতাকা)৷
-</item>
-        <item>* ৮ নং মহাবিপদ সংকেত :- এর অর্থ প্রচণ্ড ঘূর্ণিঝড় হবে এবং বন্দরের আবহাওয়া খুবই দুর্যোগপূর্ণ থাকবে৷ ঝড়টি চট্টগ্রাম বন্দরের দক্ষিণ দিক দিয়ে উপকূল অতিক্রম করতে পারে-(মংলা বন্দরের বেলায় পূর্ব দিক দিয়ে)৷</item>
-        <item>* ৯ নম্বর মহাবিপদ সংকেত :- এর অর্থ প্রচণ্ড ঘূর্ণিঝড়ের প্রভাবে বন্দরের আবহাওয়া দুর্যোগপূর্ণ থাকবে৷ ঘূর্ণিঝড়টি চট্টগ্রাম বন্দরের উত্তর দিক দিয়ে উপকূল অতিক্রম করার আশঙ্কা রয়েছে-(মংলা বন্দরের বেলায় পশ্চিম দিক দিয়ে)৷
-</item>
-        <item>* ১০ নম্বর মহাবিপদ সংকেত :- এর অর্থ প্রচণ্ড ঘূর্ণিঝড়ের প্রভাবে বন্দরের আবহাওয়া দুর্যোগপূর্ণ থাকবে এবং ঘূর্ণিঝড়টির বন্দরের খুব কাছ দিয়ে অথবা উপর দিয়ে উপকূল অতিক্রম করতে পারে৷</item>
-        <item>* ১১ নম্বর যোগাযোগ ব্যবস্থা বিচ্ছিন্ন হওয়ার সংকেত :- এর অর্থ ঝড় সতর্কীকরণ কেন্দ্রের সাথে সমস্ত যোগাযোগ ব্যবস্থা বিচ্ছিন্ন হয়ে গিয়েছে এবং স্থানীয় অধিকর্তার বিবেচনায় চরম প্রতিকূল আবহাওয়ার আশঙ্কা রয়েছে।
-</item>
+         <item>Number 1 remote warning signal: -\nthis means there is a gusty wind in the Bengal bay, a storm may arise (single red flag)</item>
+         <item>Number 2 remote warning signal:-\nthis means there is a cyclone in the sea </item>
+         <item>Number 3 local warning signal:-\nthis means gusty wind towards the coastal area (two red flags)</item>
+         <item>Number 4 warning signal:-\nthis means the port and coastal area faces storm, but situation is not in alarming state</item>
+         <item>Number 5 danger signal:-\nthis means port weather will inclement due to small to medium storm</item>
+         <item>Number 6 danger sign:-\nthis means the storm may moving crossing the port to the land</item>
+         <item>Number 7 danger sign:-\nthis means inclement weather will hold and storm may pass port towards land (three red flags)</item>
+         <item>Number 8 great danger signal:-\nthis means weather will stay unsettling due to intense cyclone and storm passed the port to the land</item>
+         <item>Number  9 great danger signal:-\nthis means severe cyclone and stormy weather holds. The storm will move crossing coastal area</item>
+         <item>Number 10 great danger signal:-\nthis means due to cyclone intense stormy weather at the port holds.</item>
+         <item>Number 11 communication severed signal:-\nthis means communication with warning center has been severed.  Local in charge considers this as extreme weather condition. </item>
+
+         <!--<item>* ১ নম্বর দূরবর্তী সতর্ক সংকেত :- এর অর্থ বঙ্গোপসাগরের কোন একটা অঞ্চলে ঝড়ো হাওয়া বইছে এবং সেখানে ঝড় সৃষ্টি হতে পারে-(একটি লাল পতাকা)৷-->
+<!--</item>-->
+        <!--<item>* ২ নম্বর দূরবর্তী হুঁশিয়ারি সংকেত :- সমুদ্রে ঘূর্ণিঝড় সৃষ্টি হয়েছে৷-->
+<!--</item>-->
+        <!--<item>* ৩ নম্বর স্থানীয় সতর্ক সংকেত :- এর অর্থ বন্দর দমকা হাওয়ার সম্মুখীন-(দুইটি লাল পতাকা)৷-->
+<!--</item>-->
+        <!--<item>* ৪ নম্বর হুঁশিয়ারি সংকেত :- এর অর্থ বন্দর ঝড়ের সম্মুখীন হচ্ছে, তবে বিপদের আশঙ্কা এমন নয় যে চরম নিরাপত্তা ব্যবস্থা গ্রহণ করতে হবে৷-->
+<!--</item>-->
+        <!--<item>* ৫ নম্বর বিপদ সংকেত :- এর অর্থ হচ্ছে অল্প বা মাঝারী ধরনের ঘূর্ণিঝড়ের কারণে বন্দরের আবহাওয়া দুর্যোগপূর্ণ থাকবে এবং ঝড়টি চট্টগ্রাম বন্দরের দক্ষিণ দিক দিয়ে উপকূল অতিক্রম করতে পারে-(মংলা বন্দরের বেলায় পূর্ব দিক দিয়ে)৷-->
+<!--</item>-->
+        <!--<item>* ৬ নম্বর বিপদ সংকেত :- এর অর্থ হচ্ছে অল্প বা মাঝারী ধরনের ঝড় হবে এবং আবহাওয়া দুযোগপূর্ণ থাকবে৷ ঝড়টি চট্টগ্রাম বন্দরের উত্তর দিক দিয়ে উপকূল অতিক্রম করতে পারে-(মংলা বন্দরের বেলায় পশ্চিম দিক দিয়ে)৷-->
+<!--</item>-->
+        <!--<item>* ৭নং বিপদ সংকেত :- এর অর্থ অল্প অথবা মাঝারী ধরনের ঘূর্ণিঝড় হবে এবং এজন্য আবহাওয়া দুর্যোগপূর্ণ থাকবে৷ ঘূর্ণিঝড়টি সমুদ্রবন্দরের খুব কাছ দিয়ে অথবা উপর দিয়ে উপকূল অতিক্রম করতে পারে-(তিনটি লাল পতাকা)৷-->
+<!--</item>-->
+        <!--<item>* ৮ নং মহাবিপদ সংকেত :- এর অর্থ প্রচণ্ড ঘূর্ণিঝড় হবে এবং বন্দরের আবহাওয়া খুবই দুর্যোগপূর্ণ থাকবে৷ ঝড়টি চট্টগ্রাম বন্দরের দক্ষিণ দিক দিয়ে উপকূল অতিক্রম করতে পারে-(মংলা বন্দরের বেলায় পূর্ব দিক দিয়ে)৷</item>-->
+        <!--<item>* ৯ নম্বর মহাবিপদ সংকেত :- এর অর্থ প্রচণ্ড ঘূর্ণিঝড়ের প্রভাবে বন্দরের আবহাওয়া দুর্যোগপূর্ণ থাকবে৷ ঘূর্ণিঝড়টি চট্টগ্রাম বন্দরের উত্তর দিক দিয়ে উপকূল অতিক্রম করার আশঙ্কা রয়েছে-(মংলা বন্দরের বেলায় পশ্চিম দিক দিয়ে)৷-->
+<!--</item>-->
+        <!--<item>* ১০ নম্বর মহাবিপদ সংকেত :- এর অর্থ প্রচণ্ড ঘূর্ণিঝড়ের প্রভাবে বন্দরের আবহাওয়া দুর্যোগপূর্ণ থাকবে এবং ঘূর্ণিঝড়টির বন্দরের খুব কাছ দিয়ে অথবা উপর দিয়ে উপকূল অতিক্রম করতে পারে৷</item>-->
+        <!--<item>* ১১ নম্বর যোগাযোগ ব্যবস্থা বিচ্ছিন্ন হওয়ার সংকেত :- এর অর্থ ঝড় সতর্কীকরণ কেন্দ্রের সাথে সমস্ত যোগাযোগ ব্যবস্থা বিচ্ছিন্ন হয়ে গিয়েছে এবং স্থানীয় অধিকর্তার বিবেচনায় চরম প্রতিকূল আবহাওয়ার আশঙ্কা রয়েছে।-->
+<!--</item>-->
     </string-array>
     
      <string-array name="things_ten">

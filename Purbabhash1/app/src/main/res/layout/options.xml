@@ -15,7 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="124dp"
         android:gravity="center"
-        android:text="সংবাদ"
+        android:text="News"
         android:background="#8058ACFA"
         android:textColor="#3B0B2E" 
         android:textSize="25dp"
@@ -34,7 +34,7 @@
         android:layout_marginTop="48dp"
         android:background="#8058ACFA"
         android:gravity="center"
-        android:text="সাইক্লোন সেন্টার"
+        android:text="Cyclone Centers"
         android:textColor="#3B0B2E"
         android:textSize="25dp"
         android:width="200dp" />
@@ -48,7 +48,7 @@
         android:layout_marginTop="49dp"
        
         android:gravity="center"
-        android:text="বিপদ সংকেত সমূহ"
+        android:text="Danger Signs"
         
         android:background="#8058ACFA"
         android:textColor="#3B0B2E" 
@@ -88,7 +88,7 @@
         android:layout_marginTop="35dp"
         android:background="#8058ACFA"
         android:gravity="center"
-        android:text="দুর্যোগে করনীয়"
+        android:text="ToDo in Calamity"
         android:textColor="#3B0B2E"
         android:textSize="25dp"
         android:width="200dp" />
@@ -103,7 +103,7 @@
         android:layout_marginTop="44dp"
         android:background="#8058ACFA"
         android:gravity="center"
-        android:text="আবহাওয়া"
+        android:text="Weather"
         android:textColor="#3B0B2E"
         android:textSize="25dp"
         android:width="200dp" />
