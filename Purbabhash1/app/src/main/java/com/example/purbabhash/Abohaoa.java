@@ -17,10 +17,13 @@ import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
@@ -55,7 +58,7 @@ public class Abohaoa extends Activity implements LocationListener {
 
 		if (0 < GPSLocationTime - NetLocationTime) {
 			if (null == locationGPS)
-				Toast.makeText(getBaseContext(), "Found NuLL",
+				Toast.makeText(getBaseContext(), "Found NuLL GPS",
 						Toast.LENGTH_SHORT).show();
 			return locationGPS;
 		} else {
@@ -80,10 +83,26 @@ public class Abohaoa extends Activity implements LocationListener {
 
 		locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,
 				5000, 10, this);
-		
-		
-		onLocationChanged(getLastBestLocation());
-	}
+//        Toast.makeText(Abohaoa.this,"one",Toast.LENGTH_LONG).show();
+        runOnUiThread(new Runnable() {
+            public void run() {
+                try {
+//                    Toast.makeText(Abohaoa.this,"two",Toast.LENGTH_LONG).show();
+                    Location rcvd=getLastBestLocation();
+                    if (null!=rcvd){
+                        onLocationChanged(rcvd);
+//                        Toast.makeText(Abohaoa.this,"Hojor",Toast.LENGTH_LONG).show();
+                    }else{
+                        Toast.makeText(Abohaoa.this,"Null Location Returned",Toast.LENGTH_LONG).show();
+                    }
+
+                    } catch(Exception v) {
+                    Log.w("exception thread t1->1", v.toString());
+                }
+            }
+        });
+
+    }
 
 	/*
 	 * @Override public boolean onCreateOptionsMenu(Menu menu) { // Inflate the
@@ -91,20 +110,47 @@ public class Abohaoa extends Activity implements LocationListener {
 	 * getMenuInflater().inflate(R.menu.main, menu); return true; }
 	 */
 
+    //used onClick
 	public void open(View view) {
-		String url = location.getText().toString();
-		String finalUrl = url1 + url + url2;
-		country.setText(finalUrl);
-		obj = new HandleXML(finalUrl);
-		obj.fetchXML();
-		while (obj.parsingComplete)
-			;
-		country.setText(obj.getCountry());
-		temperature.setText(kelvinToCelsius(obj.getTemperature()));
-		humidity.setText(obj.getHumidity());
-		pressure.setText(obj.getPressure());
+        runOnUiThread(new Runnable() {
+            public void run() {
+                try{
+                    String url = location.getText().toString();
+                    if(url.equals("")){
+                        location.setText(url="dhaka, bangladesh");
+                    }
+                    String finalUrl = url1 + url + url2;
+
+                    if(isNetworkAvailable()){
+                        country.setText(finalUrl);
+                        obj = new HandleXML(finalUrl);
+                        obj.fetchXML();
+                        while (obj.parsingComplete);
+                        country.setText(obj.getCountry());
+                        temperature.setText(kelvinToCelsius(obj.getTemperature()));
+                        humidity.setText(obj.getHumidity());
+                        pressure.setText(obj.getPressure());
+                    }else{
+                        Toast.makeText(Abohaoa.this,"Pls activate internet",Toast.LENGTH_LONG).show();
+                    }
+
+
+//                    sleep(100);
+                }catch(Exception v){System.out.println(v);}
+
+            }
+        });
+
+
+
 
 	}
+    private boolean isNetworkAvailable() {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+    }
 
 	private CharSequence kelvinToCelsius(String temperature2) {
 		// TODO Auto-generated method stub
@@ -146,11 +192,12 @@ public class Abohaoa extends Activity implements LocationListener {
 			location.setText(s);
 			
 		} else {
-			location.setText("dhaka");
+			location.setText("Dhaka");
+            Toast.makeText(getBaseContext(),
+                    "Out of Coverage Pls use Manual Input. \n Default set to Dhaka", Toast.LENGTH_SHORT)
+                    .show();
 		}
-		Toast.makeText(getBaseContext(),
-				"Out of Coverage Pls use Manual Input", Toast.LENGTH_SHORT)
-				.show();
+
 		buttonW.performClick();
 	}
 
@@ -176,8 +223,8 @@ public class Abohaoa extends Activity implements LocationListener {
 			// TODO Auto-generated method stub
 			super.onBackPressed();
 			//overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-			Abohaoa.this.finish();
-			startActivity(new Intent(Abohaoa.this,Options.class));
+//			Abohaoa.this.finish();
+//			startActivity(new Intent(Abohaoa.this,Options.class));
 			
 			//finish();
 		}

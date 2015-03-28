@@ -1,4 +1,4 @@
-package com.example.purbabhash;
+﻿package com.example.purbabhash;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -21,7 +21,7 @@ public class CycloneSignals extends Activity {
 		Typeface tf = Typeface.createFromAsset(getAssets(),
                 "font/siyamrupali.ttf");
 		tv.setTypeface(tf);
-		tv.setText("বিপদ সংকেত সমূহ");
+		tv.setText("Cyclone Signals:");
 		
 		for (int i = 0; i < 11;i++ ) {
 			String buttonID = "textView" + (i) ;
@@ -48,9 +48,9 @@ public class CycloneSignals extends Activity {
 		// TODO Auto-generated method stub
 		super.onBackPressed();
 		//overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-		CycloneSignals.this.finish();
-		startActivity(new Intent(CycloneSignals.this,Options.class));
-		
+//		CycloneSignals.this.finish();
+//		startActivity(new Intent(CycloneSignals.this,Options.class));
+//
 		finish();
 	}
 
