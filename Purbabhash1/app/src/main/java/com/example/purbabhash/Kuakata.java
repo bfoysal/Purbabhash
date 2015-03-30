@@ -102,8 +102,8 @@ public class Kuakata extends Activity implements OnClickListener{
 		// TODO Auto-generated method stub
 		super.onBackPressed();
 		//overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-		Kuakata.this.finish();
-		startActivity(new Intent(Kuakata.this,Cyclonecenter.class));
+//		Kuakata.this.finish();
+//		startActivity(new Intent(Kuakata.this,Cyclonecenter.class));
 		
 	//	finish();
 	}

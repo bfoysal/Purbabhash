@@ -103,8 +103,8 @@ public class Vola extends Activity implements OnClickListener{
 		// TODO Auto-generated method stub
 		super.onBackPressed();
 		//overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-		Vola.this.finish();
-		startActivity(new Intent(Vola.this,Cyclonecenter.class));
+//		Vola.this.finish();
+//		startActivity(new Intent(Vola.this,Cyclonecenter.class));
 		
 	//	finish();
 	}

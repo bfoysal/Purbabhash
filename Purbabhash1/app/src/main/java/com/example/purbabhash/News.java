@@ -70,7 +70,7 @@ public class News extends Activity {
 		super.onBackPressed();
 		//overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
 		//News.this.finish();
-		startActivity(new Intent(News.this,Options.class));
+//		startActivity(new Intent(News.this,Options.class));
 		
 		
 	}

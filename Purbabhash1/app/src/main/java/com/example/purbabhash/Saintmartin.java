@@ -105,8 +105,8 @@ public class Saintmartin extends Activity implements OnClickListener{
 		// TODO Auto-generated method stub
 		super.onBackPressed();
 		//overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-		Saintmartin.this.finish();
-		startActivity(new Intent(Saintmartin.this,Cyclonecenter.class));
+//		Saintmartin.this.finish();
+//		startActivity(new Intent(Saintmartin.this,Cyclonecenter.class));
 		
 	//	finish();
 	}

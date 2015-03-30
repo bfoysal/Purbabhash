@@ -102,8 +102,8 @@ public class Barishal extends Activity implements OnClickListener{
 		// TODO Auto-generated method stub
 		super.onBackPressed();
 		//overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-		Barishal.this.finish();
-		startActivity(new Intent(Barishal.this,Cyclonecenter.class));
+//		Barishal.this.finish();
+//		startActivity(new Intent(Barishal.this,Cyclonecenter.class));
 		
 	//	finish();
 	}

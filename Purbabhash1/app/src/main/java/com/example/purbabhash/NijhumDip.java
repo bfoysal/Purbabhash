@@ -104,8 +104,8 @@ public class NijhumDip extends Activity implements OnClickListener{
 		// TODO Auto-generated method stub
 		super.onBackPressed();
 		//overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-		NijhumDip.this.finish();
-		startActivity(new Intent(NijhumDip.this,Cyclonecenter.class));
+//		NijhumDip.this.finish();
+//		startActivity(new Intent(NijhumDip.this,Cyclonecenter.class));
 		
 	//	finish();
 	}

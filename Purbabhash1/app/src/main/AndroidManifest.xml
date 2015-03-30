@@ -49,7 +49,9 @@ android:value="AIzaSyDRZQtPuTFO7lMBqSfVP3-ofZNnO1FpJnM"/>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="Options"></activity>
+        <activity android:name="Options"
+            android:launchMode="singleTop">
+            </activity>
         <activity android:name="News"></activity>
         <activity android:name="Kuakata"></activity>
         <activity android:name="Cyclonecenter"></activity>

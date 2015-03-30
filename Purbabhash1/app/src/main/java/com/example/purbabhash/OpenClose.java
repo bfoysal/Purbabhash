@@ -1,5 +1,6 @@
 package com.example.purbabhash;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.graphics.Color;
@@ -59,5 +60,14 @@ public class OpenClose extends Activity {
       
       return true;
    }
+
+    public void onBackPressed() {
+        // TODO Auto-generated method stub
+        super.onBackPressed();
+        //overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+//        OpenClose.this.finish();
+//        startActivity(new Intent(OpenClose.this,Options.class));
+
+    }
 
 }

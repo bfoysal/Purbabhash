@@ -90,8 +90,8 @@ public class Cyclonecenter extends Activity {
 			// TODO Auto-generated method stub
 			super.onBackPressed();
 			//overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-			Cyclonecenter.this.finish();
-			startActivity(new Intent(Cyclonecenter.this,Options.class));
+//			Cyclonecenter.this.finish();
+//			startActivity(new Intent(Cyclonecenter.this,Options.class));
 			
 		//	finish();
 		}

@@ -49,7 +49,7 @@ public class Options extends Activity{
 					Intent i=new Intent(getApplicationContext(),OpenClose.class);
 					startActivity(i);
 					overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-					finish();
+//					finish();
 				}
 			});
 		 bipodsongket.setOnClickListener(new OnClickListener() {
@@ -60,7 +60,7 @@ public class Options extends Activity{
 				Intent i=new Intent(getApplicationContext(),CycloneSignals.class);
 				startActivity(i);
 				overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-				finish();
+//				finish();
 			}
 		});
 		 cyclonecenter.setOnClickListener(new OnClickListener() {
@@ -71,7 +71,7 @@ public class Options extends Activity{
 					Intent i=new Intent(getApplicationContext(),Cyclonecenter.class);
 					startActivity(i);
 					overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-					finish();
+//					finish();
 				}
 			});
 		
@@ -83,7 +83,7 @@ public class Options extends Activity{
 					Intent i=new Intent(getApplicationContext(),Durjogekoronio.class);
 					startActivity(i);
 					overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-					finish();
+//					finish();
 				}
 			});
 		 
